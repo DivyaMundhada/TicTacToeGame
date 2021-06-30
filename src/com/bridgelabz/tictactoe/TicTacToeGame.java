@@ -25,6 +25,7 @@ public class TicTacToeGame {
 	public void check() {
 		System.out.println("Please Select Your Coice : 'X' or 'O' ");
 		char choice = scan.next().charAt(0);
+
 		switch (choice) {
 
 		case 'X':
