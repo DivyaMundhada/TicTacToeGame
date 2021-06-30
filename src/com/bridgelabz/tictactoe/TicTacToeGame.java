@@ -18,11 +18,11 @@ public class TicTacToeGame {
 		char choice = scan.next().charAt(0);
 		switch (choice) {
 
-		case 1:
+		case 'X':
 			player = 'X';
 			computer = 'O';
 			break;
-		case 2:
+		case 'Y':
 			player = 'O';
 			computer = 'X';
 			break;
