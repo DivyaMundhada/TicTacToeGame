@@ -10,7 +10,7 @@ public class TicTacToeGame {
 
 	public void initialize() {
 		for (i = 1; i < 10; i++) {
-			board[i] = '2';
+			board[i] = ' ';
 		}
 	}
 	
